@@ -1,0 +1,58 @@
+.jumbotron2{
+	color: green;
+	background-image: url("nesController.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+}
+
+
+/*body{
+	background-image: url("pacmangif.gif");
+}*/
+
+
+.instructionRow
+{
+	color: green;
+}
+
+.qRows {
+color: red;
+}
+
+.radioButtons{
+	font-size: 100%
+}
+
+/*.row1{
+	background-color: black;
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}*/
+
+/*.row2{
+	background-image: url("pacmanleft.gif");
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}*/
+
+/*.row3{
+	background-color: black;
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}*/
+body{
+	background-image: url("galaga2.gif");
+	background-position: center;
+	background-size: 85% 100%;
+	background-repeat: no-repeat;
+}
+
+html{
+	background-color: black;
+
+}
