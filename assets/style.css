@@ -2,6 +2,7 @@ html{
 	background-color: black;
 }
 .jumbotron2{
+	height: 30vh;
 	color: green;
 	background-image: url("nesController.png");
 	background-repeat: no-repeat;
@@ -22,13 +23,68 @@ color: red;
 
 .radioButtons{
 	font-size: 100%
+	
 }
 
 body{
-	background-width: 100%;
+	background-color: black;
 	background-image: url("galaga2.gif");
 	background-position: center;
 	background-size: 85% 100%;
 	background-repeat: no-repeat;
-	background-width: 100%;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+#submitButton{
+	position: center;
+	background-color: lightblue;
+	transition: background-color 0.4s;
+}
+#submitButton:hover {
+	background-color: #007DA7;
+}
+
+.spinnerBackground{
+	
+
+}
+
+
+.spinner{
+	background-image: url("https://thumbs.gfycat.com/MeanChillyIndianrhinoceros-size_restricted.gif");
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 65%;
+	height:65%;
+
+	
+
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+
+	animation: spin 1s infinite linear;
+}
+
+
+
+#overlay{
+	height: 100%;
+	width: 100%;
+	background: black;
+	position: fixed;
+	left: 0;
+	top: 0;
+	color: red;
+	z-index: 1;
+}
+
+.bodyBox{
+	color: white;
 }

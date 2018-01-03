@@ -1,6 +1,15 @@
 
 
 $(document).ready(function(){
+var overlay = document.getElementById("overlay");
+
+function loaderFunction() {
+    setTimeout(function(){ $("#overlay").fadeOut(); }, 13900);
+}
+
+loaderFunction();
+
+
 var rightGuesses = 0;
 var wrongGuesses = 0;
 	
@@ -57,9 +66,11 @@ var wrongGuesses = 0;
 	}
 
 	function displayScore(){
-		alert("You got " + rightGuesses + " correct!")
+		alert("Your score was " + rightGuesses + " out of 5!")
 
 			location.reload();
 	}
 
 });
+
+
