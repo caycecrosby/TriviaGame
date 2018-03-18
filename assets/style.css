@@ -1,6 +1,10 @@
 html{
 	background-color: black;
 }
+
+#instructional{
+	font-size: 20px 
+}
 .jumbotron2{
 	height: 30vh;
 	color: green;
